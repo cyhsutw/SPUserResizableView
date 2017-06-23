@@ -135,7 +135,7 @@ static SPUserResizableViewAnchorPoint SPUserResizableViewLowerMiddleAnchorPoint 
     
     // craete border view
     borderView = [[SPGripViewBorderView alloc] initWithFrame:CGRectInset(self.bounds, [self resizableInset], [self resizableInset])];
-    [borderView setHidden:YES];
+    [borderView setHidden:NO];
     
     [self addSubview:borderView];
     
